@@ -1,0 +1,34 @@
+[0.034s] Invoking command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi -- -j8 -l8
+[0.105s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.566s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.647s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.654s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.669s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.876s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.945s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.291s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.535s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.537s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.538s] -- Configured cppcheck include dirs: 
+[1.538s] -- Configured cppcheck exclude dirs and/or files: 
+[1.539s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.540s] -- Configured cpplint exclude dirs and/or files: 
+[1.541s] -- Added test 'lint_cmake' to check CMake code style
+[1.543s] -- Added test 'uncrustify' to check C / C++ code style
+[1.543s] -- Configured uncrustify additional arguments: 
+[1.544s] -- Added test 'xmllint' to check XML markup files
+[1.545s] -- Configuring done (1.5s)
+[1.561s] -- Generating done (0.0s)
+[1.564s] -- Build files have been written to: /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi
+[1.593s] [ 50%] [32mBuilding CXX object CMakeFiles/single_drive.dir/src/single_drive.cpp.o[0m
+[1.963s] [01m[K/home/kanja-koduki/techonvoy_ws/src/turtlesim_multi/src/single_drive.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[1.963s]     7 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[1.964s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.964s] compilation terminated.
+[1.967s] gmake[2]: *** [CMakeFiles/single_drive.dir/build.make:76: CMakeFiles/single_drive.dir/src/single_drive.cpp.o] Error 1
+[1.968s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/single_drive.dir/all] Error 2
+[1.968s] gmake: *** [Makefile:146: all] Error 2
+[1.979s] Invoked command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi -- -j8 -l8

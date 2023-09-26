@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (turtlesim_multi) JobQueued: {'identifier': 'turtlesim_multi', 'dependencies': OrderedDict()}
+[0.000538] (turtlesim_multi) JobStarted: {'identifier': 'turtlesim_multi'}
+[0.027797] (turtlesim_multi) JobProgress: {'identifier': 'turtlesim_multi', 'progress': 'cmake'}
+[0.028813] (turtlesim_multi) JobProgress: {'identifier': 'turtlesim_multi', 'progress': 'build'}
+[0.030708] (turtlesim_multi) Command: {'cmd': ['/home/kanja-koduki/.local/bin/cmake', '--build', '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi', '--', '-j8', '-l8'], 'cwd': '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kanja-koduki'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kanja-koduki'), ('OLDPWD', '/home/kanja-koduki'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1616'), ('SYSTEMD_EXEC_PID', '2004'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11675'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install:/home/kanja-koduki/eyantra23_ws/install:/home/kanja-koduki/ortega_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kanja-koduki'), ('JOURNAL_STREAM', '8:36001'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kanja-koduki'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/kanja-koduki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ferbin:@/tmp/.ICE-unix/1772,unix/ferbin:/tmp/.ICE-unix/1772'), ('INVOCATION_ID', '531d5298983d4660a8767b78e36b3d28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WJJ3B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi:/home/kanja-koduki/ortega_ws/install/ortega_bot:/home/kanja-koduki/eyantra23_ws/install/eyantra_warehouse:/home/kanja-koduki/eyantra23_ws/install/ebot_description:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d3dea48d-f39d-455f-a103-05e64e16b368'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kanja-koduki/ortega_ws/install/ortega_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi:/home/kanja-koduki/eyantra23_ws/install/eyantra_warehouse:/home/kanja-koduki/eyantra23_ws/install/ebot_description:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble')]), 'shell': False}
+[0.097164] (-) TimerEvent: {}
+[0.118491] (turtlesim_multi) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197308] (-) TimerEvent: {}
+[0.297840] (-) TimerEvent: {}
+[0.398260] (-) TimerEvent: {}
+[0.498737] (-) TimerEvent: {}
+[0.582074] (turtlesim_multi) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.598904] (-) TimerEvent: {}
+[0.653935] (turtlesim_multi) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.659843] (turtlesim_multi) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.673897] (turtlesim_multi) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.699115] (-) TimerEvent: {}
+[0.700198] (turtlesim_multi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.738380] (turtlesim_multi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.799375] (-) TimerEvent: {}
+[0.875448] (turtlesim_multi) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.878757] (turtlesim_multi) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.899606] (-) TimerEvent: {}
+[0.958360] (turtlesim_multi) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.999808] (-) TimerEvent: {}
+[1.100365] (-) TimerEvent: {}
+[1.201019] (-) TimerEvent: {}
+[1.301649] (-) TimerEvent: {}
+[1.302090] (turtlesim_multi) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.398424] (turtlesim_multi) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.401724] (-) TimerEvent: {}
+[1.502124] (-) TimerEvent: {}
+[1.602563] (-) TimerEvent: {}
+[1.629788] (turtlesim_multi) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.630296] (turtlesim_multi) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.630525] (turtlesim_multi) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.631547] (turtlesim_multi) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.633211] (turtlesim_multi) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.633502] (turtlesim_multi) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.634144] (turtlesim_multi) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.635718] (turtlesim_multi) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.652744] (turtlesim_multi) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.655681] (turtlesim_multi) StdoutLine: {'line': b'-- Build files have been written to: /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi\n'}
+[1.684768] (turtlesim_multi) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/single_drive.dir/src/single_drive.cpp.o\x1b[0m\n'}
+[1.702697] (-) TimerEvent: {}
+[1.803175] (-) TimerEvent: {}
+[1.903676] (-) TimerEvent: {}
+[2.004279] (-) TimerEvent: {}
+[2.104819] (-) TimerEvent: {}
+[2.205444] (-) TimerEvent: {}
+[2.306065] (-) TimerEvent: {}
+[2.406606] (-) TimerEvent: {}
+[2.507044] (-) TimerEvent: {}
+[2.607695] (-) TimerEvent: {}
+[2.708277] (-) TimerEvent: {}
+[2.808820] (-) TimerEvent: {}
+[2.909359] (-) TimerEvent: {}
+[3.009955] (-) TimerEvent: {}
+[3.110516] (-) TimerEvent: {}
+[3.211021] (-) TimerEvent: {}
+[3.311513] (-) TimerEvent: {}
+[3.412044] (-) TimerEvent: {}
+[3.512694] (-) TimerEvent: {}
+[3.613324] (-) TimerEvent: {}
+[3.713875] (-) TimerEvent: {}
+[3.814372] (-) TimerEvent: {}
+[3.914794] (-) TimerEvent: {}
+[4.015244] (-) TimerEvent: {}
+[4.115863] (-) TimerEvent: {}
+[4.216395] (-) TimerEvent: {}
+[4.316916] (-) TimerEvent: {}
+[4.417364] (-) TimerEvent: {}
+[4.517908] (-) TimerEvent: {}
+[4.618374] (-) TimerEvent: {}
+[4.719062] (-) TimerEvent: {}
+[4.819723] (-) TimerEvent: {}
+[4.920347] (-) TimerEvent: {}
+[5.020884] (-) TimerEvent: {}
+[5.121444] (-) TimerEvent: {}
+[5.221966] (-) TimerEvent: {}
+[5.322515] (-) TimerEvent: {}
+[5.423129] (-) TimerEvent: {}
+[5.523788] (-) TimerEvent: {}
+[5.624390] (-) TimerEvent: {}
+[5.724959] (-) TimerEvent: {}
+[5.825540] (-) TimerEvent: {}
+[5.926030] (-) TimerEvent: {}
+[6.026597] (-) TimerEvent: {}
+[6.107155] (turtlesim_multi) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.107494] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.107646] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.107765] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.107879] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.107987] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.108098] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.108213] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.108323] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.108431] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.108539] (turtlesim_multi) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kanja-koduki/techonvoy_ws/src/turtlesim_multi/src/single_drive.cpp:6\x1b[m\x1b[K:\n'}
+[6.108646] (turtlesim_multi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kanja-koduki/techonvoy_ws/src/turtlesim_multi/src/single_drive.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.108759] (turtlesim_multi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kanja-koduki/techonvoy_ws/src/turtlesim_multi/src/single_drive.cpp:30:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.108869] (turtlesim_multi) StderrLine: {'line': b'   30 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Publishing: Linear X Velocity");\n'}
+[6.108978] (turtlesim_multi) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.126732] (-) TimerEvent: {}
+[6.227229] (-) TimerEvent: {}
+[6.327770] (-) TimerEvent: {}
+[6.428372] (-) TimerEvent: {}
+[6.528965] (-) TimerEvent: {}
+[6.629604] (-) TimerEvent: {}
+[6.730089] (-) TimerEvent: {}
+[6.830632] (-) TimerEvent: {}
+[6.931224] (-) TimerEvent: {}
+[7.031892] (-) TimerEvent: {}
+[7.132504] (-) TimerEvent: {}
+[7.233095] (-) TimerEvent: {}
+[7.333604] (-) TimerEvent: {}
+[7.434030] (-) TimerEvent: {}
+[7.534598] (-) TimerEvent: {}
+[7.635122] (-) TimerEvent: {}
+[7.718001] (turtlesim_multi) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/single_drive.dir/build.make:76: CMakeFiles/single_drive.dir/src/single_drive.cpp.o] Error 1\n'}
+[7.718396] (turtlesim_multi) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/single_drive.dir/all] Error 2\n'}
+[7.718723] (turtlesim_multi) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.728798] (turtlesim_multi) CommandEnded: {'returncode': 2}
+[7.735228] (-) TimerEvent: {}
+[7.835563] (-) TimerEvent: {}
+[7.848183] (turtlesim_multi) JobEnded: {'identifier': 'turtlesim_multi', 'rc': 2}
+[7.859309] (-) EventReactorShutdown: {}

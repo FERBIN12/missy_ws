@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi -- -j8 -l8
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/single_drive.dir/src/single_drive.cpp.o[0m
+[8.616s] [100%] [32m[1mLinking CXX executable single_drive[0m
+[9.019s] [100%] Built target single_drive
+[9.040s] Invoked command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi -- -j8 -l8
+[9.208s] Invoking command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi
+[9.268s] -- Install configuration: ""
+[9.269s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/lib/turtlesim_multi/single_drive
+[9.273s] -- Set runtime path of "/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/lib/turtlesim_multi/single_drive" to ""
+[9.273s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/ament_index/resource_index/package_run_dependencies/turtlesim_multi
+[9.273s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/ament_index/resource_index/parent_prefix_path/turtlesim_multi
+[9.273s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/ament_prefix_path.sh
+[9.274s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/ament_prefix_path.dsv
+[9.274s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/path.sh
+[9.275s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/path.dsv
+[9.275s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.bash
+[9.275s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.sh
+[9.276s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.zsh
+[9.276s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.dsv
+[9.276s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/package.dsv
+[9.276s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/ament_index/resource_index/packages/turtlesim_multi
+[9.276s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/cmake/turtlesim_multiConfig.cmake
+[9.277s] -- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/cmake/turtlesim_multiConfig-version.cmake
+[9.277s] -- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/package.xml
+[9.289s] Invoked command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --install /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi

@@ -1,0 +1,10 @@
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/uninstall.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/turtlesim_multi_uninstall.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/single_drive.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/test.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/edit_cache.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/rebuild_cache.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/list_install_components.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/install.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/install/local.dir
+/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi/CMakeFiles/install/strip.dir

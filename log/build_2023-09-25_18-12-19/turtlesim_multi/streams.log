@@ -1,0 +1,10 @@
+[0.036s] Invoking command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi -- -j8 -l8
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/single_drive.dir/src/single_drive.cpp.o[0m
+[0.522s] [01m[K/home/kanja-koduki/techonvoy_ws/src/turtlesim_multi/src/single_drive.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.522s]     7 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.523s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.523s] compilation terminated.
+[0.527s] gmake[2]: *** [CMakeFiles/single_drive.dir/build.make:76: CMakeFiles/single_drive.dir/src/single_drive.cpp.o] Error 1
+[0.528s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/single_drive.dir/all] Error 2
+[0.528s] gmake: *** [Makefile:146: all] Error 2
+[0.539s] Invoked command in '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble /home/kanja-koduki/.local/bin/cmake --build /home/kanja-koduki/techonvoy_ws/build/turtlesim_multi -- -j8 -l8

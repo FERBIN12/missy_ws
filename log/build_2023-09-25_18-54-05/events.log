@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (turtlesim_multi) JobQueued: {'identifier': 'turtlesim_multi', 'dependencies': OrderedDict()}
+[0.000305] (turtlesim_multi) JobStarted: {'identifier': 'turtlesim_multi'}
+[0.033150] (turtlesim_multi) JobProgress: {'identifier': 'turtlesim_multi', 'progress': 'cmake'}
+[0.034574] (turtlesim_multi) JobProgress: {'identifier': 'turtlesim_multi', 'progress': 'build'}
+[0.036616] (turtlesim_multi) Command: {'cmd': ['/home/kanja-koduki/.local/bin/cmake', '--build', '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi', '--', '-j8', '-l8'], 'cwd': '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kanja-koduki'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kanja-koduki'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1616'), ('SYSTEMD_EXEC_PID', '2004'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11675'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install:/home/kanja-koduki/eyantra23_ws/install:/home/kanja-koduki/ortega_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kanja-koduki'), ('JOURNAL_STREAM', '8:36001'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kanja-koduki'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/kanja-koduki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ferbin:@/tmp/.ICE-unix/1772,unix/ferbin:/tmp/.ICE-unix/1772'), ('INVOCATION_ID', '531d5298983d4660a8767b78e36b3d28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WJJ3B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi:/home/kanja-koduki/ortega_ws/install/ortega_bot:/home/kanja-koduki/eyantra23_ws/install/eyantra_warehouse:/home/kanja-koduki/eyantra23_ws/install/ebot_description:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e8a7ba84-2fbd-4632-a84d-ff8950381aa4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kanja-koduki/ortega_ws/install/ortega_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi:/home/kanja-koduki/eyantra23_ws/install/eyantra_warehouse:/home/kanja-koduki/eyantra23_ws/install/ebot_description:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble')]), 'shell': False}
+[0.098048] (-) TimerEvent: {}
+[0.158001] (turtlesim_multi) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/single_drive.dir/src/single_drive.cpp.o\x1b[0m\n'}
+[0.198179] (-) TimerEvent: {}
+[0.298778] (-) TimerEvent: {}
+[0.399508] (-) TimerEvent: {}
+[0.500122] (-) TimerEvent: {}
+[0.600701] (-) TimerEvent: {}
+[0.701211] (-) TimerEvent: {}
+[0.801762] (-) TimerEvent: {}
+[0.902427] (-) TimerEvent: {}
+[1.002974] (-) TimerEvent: {}
+[1.103491] (-) TimerEvent: {}
+[1.203999] (-) TimerEvent: {}
+[1.304495] (-) TimerEvent: {}
+[1.405011] (-) TimerEvent: {}
+[1.505618] (-) TimerEvent: {}
+[1.606174] (-) TimerEvent: {}
+[1.706749] (-) TimerEvent: {}
+[1.807316] (-) TimerEvent: {}
+[1.907874] (-) TimerEvent: {}
+[2.008510] (-) TimerEvent: {}
+[2.109171] (-) TimerEvent: {}
+[2.209771] (-) TimerEvent: {}
+[2.310348] (-) TimerEvent: {}
+[2.410960] (-) TimerEvent: {}
+[2.511638] (-) TimerEvent: {}
+[2.612251] (-) TimerEvent: {}
+[2.712870] (-) TimerEvent: {}
+[2.813551] (-) TimerEvent: {}
+[2.914188] (-) TimerEvent: {}
+[3.014881] (-) TimerEvent: {}
+[3.115571] (-) TimerEvent: {}
+[3.216298] (-) TimerEvent: {}
+[3.316993] (-) TimerEvent: {}
+[3.417622] (-) TimerEvent: {}
+[3.518187] (-) TimerEvent: {}
+[3.618776] (-) TimerEvent: {}
+[3.719373] (-) TimerEvent: {}
+[3.820006] (-) TimerEvent: {}
+[3.920671] (-) TimerEvent: {}
+[4.021397] (-) TimerEvent: {}
+[4.122170] (-) TimerEvent: {}
+[4.222861] (-) TimerEvent: {}
+[4.323467] (-) TimerEvent: {}
+[4.424103] (-) TimerEvent: {}
+[4.524802] (-) TimerEvent: {}
+[4.625452] (-) TimerEvent: {}
+[4.726136] (-) TimerEvent: {}
+[4.826793] (-) TimerEvent: {}
+[4.927518] (-) TimerEvent: {}
+[5.028204] (-) TimerEvent: {}
+[5.128909] (-) TimerEvent: {}
+[5.229645] (-) TimerEvent: {}
+[5.330241] (-) TimerEvent: {}
+[5.430834] (-) TimerEvent: {}
+[5.531501] (-) TimerEvent: {}
+[5.632247] (-) TimerEvent: {}
+[5.732908] (-) TimerEvent: {}
+[5.833584] (-) TimerEvent: {}
+[5.934171] (-) TimerEvent: {}
+[6.034742] (-) TimerEvent: {}
+[6.135319] (-) TimerEvent: {}
+[6.235969] (-) TimerEvent: {}
+[6.336595] (-) TimerEvent: {}
+[6.437147] (-) TimerEvent: {}
+[6.537703] (-) TimerEvent: {}
+[6.638278] (-) TimerEvent: {}
+[6.738807] (-) TimerEvent: {}
+[6.839272] (-) TimerEvent: {}
+[6.939801] (-) TimerEvent: {}
+[7.040273] (-) TimerEvent: {}
+[7.140790] (-) TimerEvent: {}
+[7.241177] (-) TimerEvent: {}
+[7.341678] (-) TimerEvent: {}
+[7.442209] (-) TimerEvent: {}
+[7.542728] (-) TimerEvent: {}
+[7.643238] (-) TimerEvent: {}
+[7.743763] (-) TimerEvent: {}
+[7.844284] (-) TimerEvent: {}
+[7.944877] (-) TimerEvent: {}
+[8.045428] (-) TimerEvent: {}
+[8.146102] (-) TimerEvent: {}
+[8.246736] (-) TimerEvent: {}
+[8.347310] (-) TimerEvent: {}
+[8.447944] (-) TimerEvent: {}
+[8.548692] (-) TimerEvent: {}
+[8.649188] (-) TimerEvent: {}
+[8.692624] (turtlesim_multi) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable single_drive\x1b[0m\n'}
+[8.749372] (-) TimerEvent: {}
+[8.849958] (-) TimerEvent: {}
+[8.950669] (-) TimerEvent: {}
+[9.028409] (turtlesim_multi) StdoutLine: {'line': b'[100%] Built target single_drive\n'}
+[9.044407] (turtlesim_multi) CommandEnded: {'returncode': 0}
+[9.050708] (-) TimerEvent: {}
+[9.137132] (turtlesim_multi) JobProgress: {'identifier': 'turtlesim_multi', 'progress': 'install'}
+[9.150883] (-) TimerEvent: {}
+[9.211824] (turtlesim_multi) Command: {'cmd': ['/home/kanja-koduki/.local/bin/cmake', '--install', '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi'], 'cwd': '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'kanja-koduki'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/kanja-koduki'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1616'), ('SYSTEMD_EXEC_PID', '2004'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11675'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install:/home/kanja-koduki/eyantra23_ws/install:/home/kanja-koduki/ortega_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kanja-koduki'), ('JOURNAL_STREAM', '8:36001'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kanja-koduki'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/kanja-koduki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ferbin:@/tmp/.ICE-unix/1772,unix/ferbin:/tmp/.ICE-unix/1772'), ('INVOCATION_ID', '531d5298983d4660a8767b78e36b3d28'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WJJ3B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi:/home/kanja-koduki/ortega_ws/install/ortega_bot:/home/kanja-koduki/eyantra23_ws/install/eyantra_warehouse:/home/kanja-koduki/eyantra23_ws/install/ebot_description:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e8a7ba84-2fbd-4632-a84d-ff8950381aa4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kanja-koduki/techonvoy_ws/build/turtlesim_multi'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kanja-koduki/ortega_ws/install/ortega_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi:/home/kanja-koduki/eyantra23_ws/install/eyantra_warehouse:/home/kanja-koduki/eyantra23_ws/install/ebot_description:/home/kanja-koduki/eyantra23_ws/install/aws_robomaker_small_warehouse_world:/home/kanja-koduki/ortega_ws/install/ortega_bot:/opt/ros/humble')]), 'shell': False}
+[9.251101] (-) TimerEvent: {}
+[9.277630] (turtlesim_multi) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.278201] (turtlesim_multi) StdoutLine: {'line': b'-- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/lib/turtlesim_multi/single_drive\n'}
+[9.282457] (turtlesim_multi) StdoutLine: {'line': b'-- Set runtime path of "/home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/lib/turtlesim_multi/single_drive" to ""\n'}
+[9.283253] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/ament_index/resource_index/package_run_dependencies/turtlesim_multi\n'}
+[9.283564] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/ament_index/resource_index/parent_prefix_path/turtlesim_multi\n'}
+[9.283733] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/ament_prefix_path.sh\n'}
+[9.283858] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/ament_prefix_path.dsv\n'}
+[9.283980] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/path.sh\n'}
+[9.284142] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/environment/path.dsv\n'}
+[9.284273] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.bash\n'}
+[9.284402] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.sh\n'}
+[9.284529] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.zsh\n'}
+[9.284662] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/local_setup.dsv\n'}
+[9.284789] (turtlesim_multi) StdoutLine: {'line': b'-- Installing: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/package.dsv\n'}
+[9.284915] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/ament_index/resource_index/packages/turtlesim_multi\n'}
+[9.285101] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/cmake/turtlesim_multiConfig.cmake\n'}
+[9.285232] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/cmake/turtlesim_multiConfig-version.cmake\n'}
+[9.285346] (turtlesim_multi) StdoutLine: {'line': b'-- Up-to-date: /home/kanja-koduki/techonvoy_ws/install/turtlesim_multi/share/turtlesim_multi/package.xml\n'}
+[9.295149] (turtlesim_multi) CommandEnded: {'returncode': 0}
+[9.351248] (-) TimerEvent: {}
+[9.444775] (turtlesim_multi) JobEnded: {'identifier': 'turtlesim_multi', 'rc': 0}
+[9.446047] (-) EventReactorShutdown: {}
